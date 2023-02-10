@@ -21,7 +21,6 @@
     "rebuild:development": "npm run clean && npm run build:development",
     "pretest": "tsc -p spec/tsconfig.json && webpack --mode production",
     "test": "jest",
-    "test:integration": "npm run pretest && jasmine --config=spec/support/jasmine-integration.json",
     "posttest": "npm run lint",
     "lint": "eslint",
     "pretty": "pretty-quick",
